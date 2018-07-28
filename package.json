@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha server/**/*.test.js",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js"
+  },
+  "engines": {
+    "node": "10.3.0"
   },
   "author": "Neal Bharucha",
   "license": "ISC",
